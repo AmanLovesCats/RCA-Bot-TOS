@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repuls RCA Bot - Legal Documents</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .index-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            justify-content: center;
+        }
+
+        .main-logo {
+            width: 250px;
+            height: auto;
+            margin-bottom: 2rem;
+        }
+
+        .title-area {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .title-area h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+            display: block;
+        }
+
+        .title-area p {
+            font-size: 1.1rem;
+            color: #aaaaaa;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .links-area {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .links-area a {
+            font-size: 1.5rem;
+            padding: 1rem;
+            border: 1px solid rgba(46, 189, 255, 0.2);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .links-area a:hover {
+            background-color: rgba(46, 189, 255, 0.05);
+            border-color: #2EBDFF;
+        }
+
+        .links-area a::after {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loader-wrapper">
+        <img src="rca%20logo.gif" alt="Loading..." class="loader-logo">
+    </div>
+
+    <div class="index-container section">
+        <img src="rca%20logo.gif" alt="Repuls RCA Logo" class="main-logo">
+
+        <div class="title-area">
+            <h1>Repuls RCA Bot</h1>
+            <p>Official Legal Documentation</p>
+        </div>
+
+        <div class="links-area">
+            <a href="terms-of-service.html">Terms of Service</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader-wrapper').classList.add('hidden');
+                document.body.classList.add('loaded');
+            }, 800);
+        });
+    </script>
+
+</body>
+
+</html>
