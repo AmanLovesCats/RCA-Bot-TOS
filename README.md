@@ -5,9 +5,3 @@ This repository hosts the official Privacy Policy and Terms of Service for the *
 ## Purpose
 These pages are intended to be hosted via GitHub Pages to serve as a public, verifiable source for the bot's legal documentation. This is a strict requirement for Discord Bot Verification.
 
-## Contents
-- `privacy-policy.html`: Details the data collection, usage, and user data rights (GDPR/CCPA compliant) regarding the bot's functionality.
-- `terms-of-service.html`: Outlines acceptable use, virtual economy rules, age requirements, and liability disclaimers.
-- `style.css`: The minimal, Repuls-themed styling for the documentation.
-- `logo.png`: The RCA logo used in the headers and loading screens.
-
