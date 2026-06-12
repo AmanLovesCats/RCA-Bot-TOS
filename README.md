@@ -11,5 +11,3 @@ These pages are intended to be hosted via GitHub Pages to serve as a public, ver
 - `style.css`: The minimal, Repuls-themed styling for the documentation.
 - `logo.png`: The RCA logo used in the headers and loading screens.
 
-## Deployment
-This repository is configured to be deployed using GitHub Pages. Any changes pushed to the main branch will automatically update the live site.
